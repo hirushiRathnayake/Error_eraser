@@ -1,23 +1,17 @@
-import React from 'react';
-import Button from 'react-bootstrap/Button';
+import React from 'react'
+import { Button } from 'react-bootstrap';
 
-// import BlockButton from '../Components/BlockButton'
 
 function User() {
   return (
-    <div className="d-grid gap-2">
-    <Button variant="primary" size="lg">
-      Block level button
-    </Button>
-    <Button variant="secondary" size="lg">
-      Block level button
-    </Button>
-    <Button variant="secondary" size="lg">
-      Block level button
-    </Button>
-  </div>
+    <div>
+        <Button>Admin</Button>
+        <Button>Student</Button>
+        <Button>Teacher</Button>
+    </div>
+    
   )
 }
 
-export default User
+export default User;
 

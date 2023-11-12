@@ -1,12 +1,14 @@
 import React from "react";
-// import Home from "./Pages/Home";
-import User from "./Pages/User";
+
+import BasicExample from "./Components/BlockButton";
+
 
 function App() {
   return (
     <div className="App">
-        {/* <Home/> */}
-       <User/>
+   
+<BasicExample/>
+
     </div>
   );
 }
