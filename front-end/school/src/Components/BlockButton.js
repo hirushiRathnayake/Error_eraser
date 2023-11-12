@@ -1,15 +1,14 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import admin from '../Assets/admin.png';
+import student from '../Assets/student.jpg';
+import teacher from '../Assets/teacher.png';
 
 function BasicExample(props) {
   return (
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" src={props.img} />
       <Card.Body>
-        <Card.Title>{props.ctitle}</Card.Title>
-        <Card.Text>
-          {props.cContent}
-        </Card.Text>
         <Button variant="primary">{props.cButton}</Button>
       </Card.Body>
     </Card>
