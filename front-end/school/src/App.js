@@ -1,10 +1,12 @@
 import React from "react";
-import Home from "./Pages/Home";
+// import Home from "./Pages/Home";
+import User from "./Pages/User";
 
 function App() {
   return (
     <div className="App">
-        <Home/>
+        {/* <Home/> */}
+       <User/>
     </div>
   );
 }
